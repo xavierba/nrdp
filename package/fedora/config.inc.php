@@ -106,7 +106,7 @@ $cfg["valid_basic_auth_users"] = array(
 // this group is also used to set file permissions when writing bulk commands or passive check results
 // NOTE: both the Apache and Nagios users must be a member of this group
 
-$cfg["nagios_command_group"] = "nagcmd";
+$cfg["nagios_command_group"] = "nagios";
 
 
 
@@ -116,7 +116,7 @@ $cfg["nagios_command_group"] = "nagcmd";
 //
 // Full path to Nagios external command file
 
-$cfg["command_file"] = "/usr/local/nagios/var/rw/nagios.cmd";
+$cfg["command_file"] = "/var/spool/nagios/cmd/nagios.cmd";
 
 
 
@@ -126,7 +126,7 @@ $cfg["command_file"] = "/usr/local/nagios/var/rw/nagios.cmd";
 //
 // Full path to check results spool directory
 
-$cfg["check_results_dir"] = "/usr/local/nagios/var/spool/checkresults";
+$cfg["check_results_dir"] = "/var/log/nagios/spool/checkresults";
 
 
 
