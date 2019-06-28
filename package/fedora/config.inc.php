@@ -167,3 +167,5 @@ $cfg["debug"] = false;
 // Where should the logs go?
 
 $cfg["debug_log"] = "/usr/local/nrdp/server/debug.log";
+
+?>
