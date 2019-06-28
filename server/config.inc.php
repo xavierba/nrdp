@@ -47,7 +47,7 @@ $cfg["authorized_tokens"] = array(
 // external_commands_deny_tokens
 //
 // By default, all authorized tokens are allowed to submit any
-// external command (unless it"s disable below)
+// external command (unless it's disabled below)
 // This is a deny mapping in the form of COMMAND => TOKEN or TOKENS
 // You can specify a whole command, or use * as a wildcard
 // Or you can specify "all" to stop any token from using any external command
@@ -66,7 +66,7 @@ $cfg["external_commands_deny_tokens"] = array(
 /////////////////////////////////////////////////////////////
 //
 // require_https
-// 
+//
 // Do we require that HTTPS be used to access NRDP?
 // set this value to false to disable HTTPS requirement
 
@@ -79,7 +79,7 @@ $cfg["require_https"] = false;
 // require_basic_auth
 //
 // Do we require that basic authentication be used to access NRDP?
-// set this value to false to disable basic auth requirement 
+// set this value to false to disable basic auth requirement
 
 $cfg["require_basic_auth"] = false;
 
